@@ -1,0 +1,930 @@
+﻿@{
+    ViewBag.Title = "Code Race " + DateTime.Now.Year;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("_Header_Home1")
+
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-heading">CODE RACE</div>
+            <div class="intro-lead-in">Maior campeonato de programação do interior do RS</div>
+            <a href="#" class="page-scroll btn btn-xl">INSCRIÇÕES EM BREVE</a>
+            @*<a href="#inscricoes" class="page-scroll btn btn-xl">INSCRIÇÕES</a>*@
+        </div>
+    </div>
+</header>
+
+<section id="coderace2017">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Code Race <span class="title">2018</span></h2>
+            </div>
+            <div class="visible-lg visible-md visible-sm hidden-xs">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fcoderaceamf%2Fvideos%2F371389879947449%2F&show_text=0&width=560" width="100%" height="415" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+            <div class="hidden-lg hidden-md hidden-sm visible-xs">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fcoderaceamf%2Fvideos%2F371389879947449%2F&show_text=0&width=560" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+            <div class="col-lg-6 text-justify">
+                <br /><br /><br />
+                <p>O Code Race busca principalmente a interação entre desenvolvedores na área da tecnologia e, através dessa interação, dar a real visibilidade que merecem no setor. Suportando desde estudantes até a experientes no mercado. Assim, todo e qualquer aprendiz da área da tecnologia pode competir. </p>
+                <p>Na abertura do evento será sorteado um tema conforme sugestões dos competidores, com isso, os participantes são desafiados em criar um software que, no mínimo, supra os requisitos solicitados no sorteio. Os softwares devem ser inovadores e que supram as necessidades de um problema X que a sociedade possui.</p>
+                <p>As equipes (de no máximo 5 pessoas) terão que apresentar seu software, mostrando por quê alguém usaria e pagaria por aquele serviço, como se os jurados fossem seus clientes. Será avaliado o código, interface, apresentação e mais (inovação, etc) por diversos jurados do mercado.</p>
+                <p>O evento tem a duração de 12 horas de desenvolvimento — mão na massa — e mais algumas "horinhas" de imersão no evento e apresentação dos softwares. Assim, os melhores colocados receberão o investimento em dinheiro.</p>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="section-subheading text-muted text-center">Data &amp; Local</h2>
+                <p><b>Data e Hora: </b>17/08 a 18/08 com ínicio as 20h. </p>
+                <p><b>Local: </b>Antonio Meneghetti Faculdade</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13862.913195956873!2d-53.51812!3d-29.698656!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7c7f47a67748fc31!2sAntonio+Meneghetti+Faculdade+-+AMF!5e0!3m2!1spt-PT!2sbr!4v1501677252065" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-light-gray">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="@Href("~/content/img/service/Service3.png")" alt="Inovação" style="border-radius: 50px; width:70%" />
+                <h4 class="service-heading">Inovação</h4>
+                <p class="text-muted">Desafios quando aproveitados de forma criativa transformam-se em oportunidades.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="@Href("~/content/img/service/Service1.png")" alt="Código" style="border-radius: 50px;width:70%" />
+                <h4 class="service-heading">Código</h4>
+                <p class="text-muted">Além da funcionalidade e do propósito específico. Crie algo que supere o útil e funcional.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="@Href("~/content/img/service/Service4.png")" alt="Apresentação" style="border-radius: 50px;width:70%" />
+                <h4 class="service-heading">Apresentação</h4>
+                <p class="text-muted">Seus clientes serão os seus jurados. "O NÃO vocês já têm! Conquistem o SIM!".</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+@*<section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Patrocinadores</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="https://braziljs.org/" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="~/content/img/parceiros/braziljs.png" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>BrazilJS</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="http://www.meta.com.br" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="~/content/img/parceiros/meta.jpg" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Meta</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="http://zelts.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="~/content/img/parceiros/zelts.jpg" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Zelts</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="https://www.monsterenergy.com/" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="~/content/img/parceiros/monster-energy.jpg" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Monster Energy</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
+                        <a href="http://site.fp2.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="~/content/img/parceiros/fp2.jpg" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 portfolio-item">
+                        <a href="https://i3tecnologia.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="~/content/img/parceiros/i3_tecnologia.jpg" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 portfolio-item">
+                        <a href="https://www.facebook.com/sttalo/" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="~/content/img/parceiros/sttalo.jpg" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 portfolio-item">
+                        <a href="#" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="~/content/img/parceiros/open_it.jpg" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 portfolio-item">
+                        <a href="https://rocket.chat/" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="~/content/img/parceiros/rocket-chat.jpg" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 portfolio-item">
+                        <a href="https://www.umbler.com/" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="~/content/img/parceiros/umbler.jpg" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
+                        <a href="http://casadipaolo.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="~/content/img/parceiros/di-paolo.jpg" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 portfolio-item">
+                        <a href="http://www.taquapy.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="~/content/img/parceiros/taquapy.jpg" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 portfolio-item">
+                        <a href="http://www.syntesis.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="~/content/img/parceiros/syntesis.jpg" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 portfolio-item">
+                        <a href="http://www.avato.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="~/content/img/parceiros/avato.jpg" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 portfolio-item">
+                        <a href="http://rizzattiturismo.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="~/content/img/parceiros/rizzatti-turismo.jpg" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="row text-center">
+                <a href="@Href("~/patrocine")" class="page-scroll btn btn-xl">Seja um Patrocinador</a>
+            </div>-->
+            <br />
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Parceiros</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2 col-sm-6 portfolio-item">
+                    <a href="http://www.faculdadeam.edu.br/" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="~/content/img/parceiros/amf.jpg" class="img-responsive" alt="">
+                    </a>
+                    <!--<div class="portfolio-caption">
+              <h4>Antonio Meneghetti Faculdade</h4>
+        </div>-->
+                </div>
+                <div class="col-md-2 col-sm-6 portfolio-item">
+                    <a href="http://www.fundacaoantoniomeneghetti.org.br/" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="~/content/img/parceiros/fundacao_am.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+
+                <div class="col-md-2 col-sm-6 portfolio-item">
+                    <a href="https://www.impare.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="~/content/img/parceiros/impare.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+
+                <div class="col-md-2 col-sm-6 portfolio-item">
+                    <a href="https://www.treinaweb.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="~/content/img/parceiros/treina-web.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+
+                <div class="col-md-2 col-sm-6 portfolio-item">
+                    <a href="http://pt.chipinside.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="~/content/img/parceiros/chip-inside.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+
+                <div class="col-md-2 col-sm-6 portfolio-item">
+                    <a href="http://www.hotelcapozorial.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="~/content/img/parceiros/capo-zorial.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+            <br />
+        </div>
+    </section>*@
+
+<section id="sobre">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Sobre</h2>
+                @*<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>*@
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="timeline-centered">
+                    <article class="timeline-entry">
+                        <div class="timeline-entry-inner">
+                            <div class="timeline-icon bg-secondary">
+                                <i class="entypo-feather"></i> 2014
+                            </div>
+                            <div class="timeline-label">
+                                <h2>CODE RACE <span>1ª EDIÇÃO</span></h2>
+                                <p>
+                                    <b>Participantes:</b> 40 participantes em 8 equipes.<br />
+                                    <b>Instituições participantes:</b> AMF, UFSM e UNIFRA.<br />
+                                    <b>Premiação:</b> R$ 1.500 para 1° Lugar.<br />
+                                    <b>Patrocinadores principais:</b> Grupo Meta e Calçados Beira Rio.<br />
+                                    <b>Apoiadores principais:</b> Fundação Antonio Meneghetti.<br />
+                                    <b>Tema:</b> Hotelaria
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="timeline-entry">
+                        <div class="timeline-entry-inner">
+                            <div class="timeline-icon bg-secondary">
+                                <i class="entypo-suitcase"></i> 2015
+                            </div>
+                            <div class="timeline-label">
+                                <h2>CODE RACE <span>2ª EDIÇÃO</span></h2>
+                                <p>
+                                    <b>Participantes:</b> 108 participantes em 27 equipes.<br />
+                                    <b>Instituições participantes:</b> AMF, UFSM, UNIFRA, URI - Campus Santiago, UNISC, IFF - Campus São Borja e ULBRA.<br />
+                                    <b>Patrocinadores principais:</b> Grupo Meta, Fcamara, CVI (Coca Cola Santa Maria), Chip Inside, FP2, Casa Di Paolo.<br />
+                                    <b>Apoiadores principais:</b> Fundação Antonio Meneghetti.<br />
+                                    <b>Tema:</b> Educação
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="timeline-entry">
+                        <div class="timeline-entry-inner">
+                            <div class="timeline-icon bg-secondary">
+                                <i class="entypo-location"></i> 2016
+                            </div>
+                            <div class="timeline-label">
+                                <h2>CODE RACE <span>3ª EDIÇÃO</span></h2>
+                                <p>
+                                    <b>Participantes:</b> 90 participantes em 18 equipes.<br />
+                                    <b>Inscrição:</b> Primeira edição com pagamento de inscrição para sustentabilidade da competição. R$ 100 por equipe, destinados a alimentação e logísticas.<br />
+                                    <b>Instituições participantes:</b> AMF, UFSM, UNIFRA, URI - Campus Santiago, UNISC, IFF - Campus São Borja e ULBRA.<br />
+                                    <b>Premiação:</b> R$ 2.500,00 reais (1º lugar), R$ 1.000,00 reais (2° lugar), R$ 500,00 (3º lugar).<br />
+                                    <b>Apoiadores principais:</b> Fundação Antonio Meneghetti<br />
+                                    <b>Tema:</b> Permuta
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="timeline-entry">
+                        <div class="timeline-entry-inner">
+                            <div class="timeline-icon bg-secondary">
+                                <i class="entypo-camera"></i> 2017
+                            </div>
+                            <div class="timeline-label">
+                                <h2>CODE RACE <span>4ª EDIÇÃO</span></h2>
+                                <p>
+                                    <b>Participantes:</b> 80 participantes em 15 equipes.<br />
+                                    @*<b>Inscrição:</b> Primeira edição com pagamento de inscrição para sustentabilidade da competição. R$ 100 por equipe, destinados a alimentação e logísticas.<br />*@
+                                    <b>Instituições participantes:</b> AMF, UFSM, UNIFRA, IFRS - Canoas, UNISC, IFF - Campus São Vicente do Sul<br />
+                                    @*<b>Premiação:</b> R$ 2.500,00 reais (1º lugar), R$ 1.000,00 reais (2° lugar), R$ 500,00 (3º lugar).<br />*@
+                                    <b>Apoiadores principais:</b> Fundação Antonio Meneghetti<br />
+                                    <b>Tema:</b> Entretenimento
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="timeline-entry begin">
+                        <div class="timeline-entry-inner">
+                            <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+                                <i class="entypo-flight"></i> <i class="fa fa-spinner fa-spin" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                @*<ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="content/img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>CODE RACE – 1° EDIÇÃO (2014)</h4>
+                                    <h4 class="subheading">1º Edição</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"><b>Participantes:</b> 40 participantes em 8 equipes.</p>
+                                    <p class="text-muted"><b>Instituições participantes:</b> AMF, UFSM e UNIFRA.</p>
+                                    <p class="text-muted"><b>Premiação:</b> R$ 1.500 para 1° Lugar.</p>
+                                    <p class="text-muted"><b>Patrocinadores principais:</b> Grupo Meta e Calçados Beira Rio.</p>
+                                    <p class="text-muted"><b>Apoiadores principais:</b> Fundação Antonio Meneghetti.</p>
+                                    <p class="text-muted"><b>Tema:</b> Hotelaria</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="content/img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>CODE RACE – 2° EDIÇÃO (2015)</h4>
+                                    <h4 class="subheading">2º Edição</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"><b>Participantes:</b> 108 participantes em 27 equipes.</p>
+                                    <p class="text-muted"><b>Instituições participantes:</b> AMF, UFSM, UNIFRA, URI - Campus Santiago, UNISC, IFF - Campus São Borja e ULBRA.</p>
+                                    <p class="text-muted"><b>Patrocinadores principais:</b> Grupo Meta, Fcamara, CVI (Coca Cola Santa Maria), Chip Inside, FP2, Casa Di Paolo.</p>
+                                    <p class="text-muted"><b>Apoiadores principais:</b> Fundação Antonio Meneghetti.</p>
+                                    <p class="text-muted"><b>Tema:</b> Educação</p>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="content/img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>CODE RACE – 3° EDIÇÃO (2016) </h4>
+                                    <h4 class="subheading">3º Edição</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"><b>Participantes:</b> 90 participantes em 18 equipes.</p>
+                                    <p class="text-muted"><b>Inscrição:</b> Primeira edição com pagamento de inscrição para sustentabilidade da competição. R$ 100 por equipe, destinados a alimentação e logísticas.</p>
+                                    <p class="text-muted"><b>Instituições participantes:</b> AMF, UFSM, UNIFRA, URI - Campus Santiago, UNISC, IFF - Campus São Borja e ULBRA.</p>
+                                    <p class="text-muted"><b>Premiação:</b> R$ 2.500,00 reais (1º lugar), R$ 1.000,00 reais (2° lugar), R$ 500,00 (3º lugar).</p>
+                                    <p class="text-muted"><b>Apoiadores principais:</b> Fundação Antonio Meneghetti</p>
+                                    <p class="text-muted"><b>Tema:</b> Permuta</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <a href="@Href(" ~/inscricao")" style="color:#fff">
+                                    <h4>
+                                        Faça parte
+                                        <br>Dessa
+                                        <br>História!
+                                    </h4>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>*@
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="equipe" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Equipe Organizadora</h2>
+                @*<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>*@
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="team-member">
+                    <img src="@Href("~/content/img/organizacao/andre_menezes.jpg")" class="img-responsive img-circle" alt="">
+                    <h4>André Menezes</h4>
+                    <p></p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="https://www.facebook.com/andre.menezesdasilva.1" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/andr%C3%A9-menezes-da-silva-272661121/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="team-member">
+                    <img src="@Href("~/content/img/organizacao/andreves-dickow.png")" class="img-responsive img-circle" alt="">
+                    <h4>Andrêves Dickow</h4>
+                    <p></p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="https://www.facebook.com/andreves.dickow/" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/andrevesdickow/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="team-member">
+                    <img src="@Href("~/content/img/organizacao/ezequiel-drews.jpg")" class="img-responsive img-circle" alt="">
+                    <h4>Jaime Maretoli</h4>
+                    <p></p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="https://www.facebook.com/ezequiel.drews" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ezequieldrews/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="team-member">
+                    <img src="@Href("~/content/img/organizacao/jaime_maroteli.jpg")" class="img-responsive img-circle" alt="">
+                    <h4>Jaime Maretoli</h4>
+                    <p></p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="https://www.facebook.com/jaimemaretoli" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/jaimemaretoli/?ppe=1" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="team-member">
+                    <img src="@Href("~/content/img/organizacao/juliana-xavier.jpg")" class="img-responsive img-circle" alt="">
+                    <h4>Juliana Xavier</h4>
+                    <p></p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="https://www.fb.com/juxxavier" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/juxavier/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="team-member">
+                    <img src="@Href("~/content/img/organizacao/matheus_gomes.jpg")" class="img-responsive img-circle" alt="">
+                    <h4>Matheus Gomes</h4>
+                    <p></p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="https://www.facebook.com/matheusbuenevides" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/matheus-gomes-349539117/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="team-member">
+                    <img src="@Href("~/content/img/organizacao/luis_paulo.jpg")" class="img-responsive img-circle" alt="">
+                    <h4>Luis Paulo Nery</h4>
+                    <p></p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="https://www.facebook.com/LPNS3" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/luispaulonerysilveira/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="team-member">
+                    <img src="@Href("~/content/img/organizacao/fabio_prass.jpg")" class="img-responsive img-circle" alt="">
+                    <h4>Profº Fábio Prass</h4>
+                    <p></p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="https://www.facebook.com/FabioPrass?ref=br_rs" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/fabio-sarturi-prass-28568422/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="team-member">
+                    <img src="@Href("~/content/img/organizacao/felipe-becker.jpg")" class="img-responsive img-circle" alt="">
+                    <h4>Profº Felipe B. Nunes</h4>
+                    <p></p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="https://www.facebook.com/FabioPrass?ref=br_rs" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/felipe-becker-nunes-b561a576/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="team-member">
+                    <img src="@Href("~/content/img/organizacao/jose-luiz.jpg")" class="img-responsive img-circle" alt="">
+                    <h4>Profº José Luiz R. Filho</h4>
+                    <p></p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="https://www.facebook.com/joseluiz.rodriguesfilho?ref=br_rs" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/joseluizrodriguesf/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="team-member">
+                    <img src="@Href("~/content/img/organizacao/samuel_vizzotto.jpg")" class="img-responsive img-circle" alt="">
+                    <h4>Profº Samuel Vizzotto</h4>
+                    <p></p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="https://www.facebook.com/samuel.vizzotto" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@*<section id="inscricoes">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Inscrições</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="col-md-6">
+
+                        <div class="col-md-12 text-center">
+                            <h2>INSCRIÇÃO</h2>
+
+                            @if (ViewBag.Data == 1)
+                            {
+                                <div style="background:#d4d0d0;border-radius: 20px; padding-top: 15px;padding-bottom: 15px;">
+                                    <H4>Lote Promocional</H4>
+                                    <H4>R$ 100,00</H4>
+                                    <H4>14/08 a 24/09</H4>
+                                    <H5>(R$ 20,00 POR PARTICIPANTE, EQUIPE 5 PESSOAS)</H5>
+                                    <a href="~/inscricao"><button type="button" class="btn btn-xl">INSCREVER-SE</button></a>
+                                </div>
+                                <br />
+                            }
+                            else
+                            {
+                                <div style="background:#d4d0d0;color:#9e9e9e;border-radius: 20px; padding-top: 15px;padding-bottom: 15px;">
+                                    <H4>Lote Promocional</H4>
+                                    <H4>R$ 100,00</H4>
+                                    <H4>14/08 a 24/09</H4>
+                                    <H5>(R$ 20,00 POR PARTICIPANTE, EQUIPE 5 PESSOAS)</H5>
+                                    <a href="~/inscricao"><button disabled type="button" class="btn btn-xl">INSCREVER-SE</button></a>
+                                </div>
+                                <br />
+                            }
+
+                            @if (ViewBag.Data == 2)
+                            {
+                                <div style="background:#d4d0d0;border-radius: 20px; padding-top: 15px;padding-bottom: 15px;">
+                                    <H4>Segundo Lote</H4>
+                                    <H4>R$ 120,00</H4>
+                                    <H4>25/09 a 22/10</H4>
+                                    <H5>(R$ 24,00 POR PARTICIPANTE, EQUIPE 5 PESSOAS)</H5>
+                                    <a href="~/inscricao"><button type="button" class="btn btn-xl">INSCREVER-SE</button></a>
+                                </div>
+                                <br />
+                            }
+                            else
+                            {
+                                <div style="background:#d4d0d0;color:#9e9e9e;border-radius: 20px; padding-top: 15px;padding-bottom: 15px;">
+                                    <H4>Segundo Lote</H4>
+                                    <H4>R$ 120,00</H4>
+                                    <H4>25/09 a 22/10</H4>
+                                    <H5>(R$ 24,00 POR PARTICIPANTE, EQUIPE 5 PESSOAS)</H5>
+                                    <a href="~/inscricao"><button disabled type="button" class="btn btn-xl">INSCREVER-SE</button></a>
+                                </div>
+                                <br />
+                            }
+                            @if (ViewBag.Data == 3)
+                            {
+                                <div style="background:#d4d0d0;border-radius: 20px; padding-top: 15px;padding-bottom: 15px;">
+                                    <H4>Terceiro Lote</H4>
+                                    <H4>R$ 150,00</H4>
+                                    <H4>23/10 a 10/11</H4>
+                                    <H5>(R$ 30,00 POR PARTICIPANTE, EQUIPE 5 PESSOAS)</H5>
+                                    <a href="~/inscricao"><button type="button" class="btn btn-xl">INSCREVER-SE</button></a>
+                                </div>
+                            }
+                            else
+                            {
+                                <div style="background:#d4d0d0;color:#9e9e9e;border-radius: 20px; padding-top: 15px;padding-bottom: 15px;">
+                                    <H4>Terceiro Lote</H4>
+                                    <H4>R$ 150,00</H4>
+                                    <H4>23/10 a 10/11</H4>
+                                    <H5>(R$ 30,00 POR PARTICIPANTE, EQUIPE 5 PESSOAS)</H5>
+                                    <a href="~/inscricao"><button disabled type="button" class="btn btn-xl">INSCREVER-SE</button></a>
+                                </div>
+                            }
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-md-12 text-center">
+                            <h2>REGULAMENTO</h2>
+                            <a href="@Href("~/Content/arquivos/REGULAMENTO - Code Race 2017.pdf")" target="_blank"><button type="button" class="btn btn-xl">Ver Regulamento</button></a>
+                            <!--<button type="button" disabled class="btn btn-xl">Em Breve</button>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+
+@*<section id="premiacao" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Premiação</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-md-4 text-center">
+                        <img src="@Href("~/Content/img/premiacao/1.png")" />
+                        <h1>1º Lugar</h1>
+                        <h3>R$ 2.000,00</h3>
+                        <h5>(dois mil reais) e troféu</h5>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="@Href("~/Content/img/premiacao/2.png")" />
+                        <h1>2º Lugar</h1>
+                        <h3>R$ 1.000,00)</h3>
+                        <h5> (um mil reais) e troféu</h5>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="@Href("~/Content/img/premiacao/3.png")" />
+                        <h1>3º Lugar</h1>
+                        <h3>R$ 500,00</h3>
+                        <h5>(quinhentos reais) e troféu</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Contato</h2>
+                @*<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>*@
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div id="divSucesso" class="hidden">
+                        <div class="col-sm-12 alert alert-success" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button><p>E-mail enviado com sucesso! Em breve entraremos em contato.</p>
+                        </div>
+                    </div>
+                    <div id="divAlteracao" class="hidden">
+                        <div class="col-sm-12 alert alert-warning" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button><p id="valorAlterado">E-mail enviado com sucesso! Em breve entraremos em contato.</p>
+                        </div>
+                    </div>
+                    <div id="divErro" class="hidden">
+                        <div class="col-sm-12 alert alert-danger" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button><p>Infelizmente o e-mail não pode ser enviado. <br />Tente novamente mais tarde ou se o problema persistir contate o administrador.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nome *" id="txtNome" name="txtNome" required data-validation-required-message="Por favor, coloque seu nome.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="E-mail *" id="txtEmail" name="txtEmail" required data-validation-required-message="Por favor, coloque seu e-mail.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Telefone *" id="txtTelefone" name="txtTelefone" required data-validation-required-message="Por favor, coloque seu telefone.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Mensagem" id="txtMensagem" name="txtMensagem" required data-validation-required-message="Por favor, coloque uma mensagem."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-lg-12 text-center">
+                        <div id="success"></div>
+                        <button type="button" onclick="EnviarForm()" class="btn btn-xl">Enviar Mensagem</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function EnviarForm() {
+
+        $("#divAlteracao").addClass("hidden");
+        var _nome = $('#txtNome').val();
+        var _email = $('#txtEmail').val();
+        var _telefone = $('#txtTelefone').val();
+        var _mensagem = $('#txtMensagem').val();
+
+        if (_nome == null || _nome == "") {
+            //$.growl.warning({ title: "Ops..", message: "Por favor, preencha seu Nome!" });
+            $("#valorAlterado").html("Por favor, preencha seu Nome!")
+            $("#divAlteracao").removeClass("hidden");
+
+        }
+        else if (_email == null || _email == "") {
+            // $.growl.warning({ title: "Ops..", message: "Por favor, preencha seu E-mail!" });
+            $("#valorAlterado").html("Por favor, preencha seu E-mail!")
+            $("#divAlteracao").removeClass("hidden");
+
+        }
+        else if (_telefone == null || _telefone == "") {
+            //$.growl.warning({ title: "Ops..", message: "Por favor, preencha seu Telefone!" });
+            $("#valorAlterado").html("Por favor, preencha seu Telefone!")
+            $("#divAlteracao").removeClass("hidden");
+        }
+        else {
+            $.ajax({
+                type: 'GET',
+                url: '@Url.Action("EnviarForm", "Home")',
+                data: {
+                    nome: _nome,
+                    email: _email,
+                    telefone: _telefone,
+                    mensagem: _mensagem
+                },
+                contentType: 'application/json; charset=utf-8',
+                cache: false,
+                async: false,
+                success: function (data) {
+                    $("#divSucesso").removeClass("hidden");
+
+                },
+                error: function (msg) {
+                    $("#divSucesso").removeClass("hidden");
+                }
+            });
+        }
+    }
+</script>
