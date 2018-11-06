@@ -1,11 +1,11 @@
 ---
 name: Requerimento de melhoria
-about: Dá uma ideia para o projeto
+about: Dá uma ideia/requerimento para o projeto
 
 ---
 
 # Queremos 🌏
-Um menu semelhante ao do CodeRace.
+Alguma coisa.
 
 ## Precisa ter:
  - Isso
