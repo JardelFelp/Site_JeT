@@ -1,3 +1,3 @@
-# Site_JeT
+# Site do JeT
 
-# Um site para o projeto Jovem & Tecnologia
+## Um site para o projeto Jovem & Tecnologia
