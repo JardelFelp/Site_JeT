@@ -1,0 +1,171 @@
+[
+	{
+		"_id": 1,
+		"title": "1ª Edição",
+		"image": "claudio_carrara.jpg",
+		"year": 2010,
+		"students": 40,
+		"long_description": "Informática Básica (Word, Excel, PowerPoint e Windows) e Linguagem de Programação (HTML – Desenvolvimento de Site)",
+		"short_description": "Informática Básica e HTML",
+		"partners": [
+			"Grupo Meta",
+			"Antonio Meneghetti Faculdade"
+		],
+		"participant_institutions": {
+			"title" : "Escolas de Ensino Médio da Quarta Colônia",
+			"list": [
+				"Willy Roos"
+			]
+		}
+	},
+	{
+		"_id": 2,
+		"title": "2ª e 3ª Edição",
+		"image": "claudio_carrara.jpg",
+		"year": 2011,
+		"students": 80,
+		"long_description": "Informática Básica (Word, Excel, PowerPoint e Windows) e Linguagem de Programação (HTML – Desenvolvimento de Site)",
+		"short_description": "Informática Básica e HTML",
+		"partners": [
+			"Grupo Meta",
+			"Antonio Meneghetti Faculdade"
+		],
+		"participant_institutions": {
+			"title" : "Escolas de Ensino Médio da Quarta Colônia",
+			"list": [
+				"Willy Roos"
+			]
+		}
+	},
+	{
+		"_id": 3,
+		"title": "4ª edição",
+		"image": "claudio_carrara.jpg",
+		"year": 2012,
+		"students": 35,
+		"long_description": "Introdução à robótica",
+		"short_description": "Introdução à robótica",
+		"partners": [
+			"Grupo Meta",
+			"Antonio Meneghetti Faculdade"
+		],
+		"participant_institutions": {
+			"title" : "Escolas de Ensino Médio da Quarta Colônia",
+			"list": [
+				"Willy Roos"
+			]
+		}
+	},
+	{
+		"_id": 4,
+		"title": "5ª edição",
+		"image": "claudio_carrara.jpg",
+		"year": 2013,
+		"students": 20,
+		"long_description": "Introdução à robótica",
+		"short_description": "Introdução à robótica",
+		"partners": [
+			"Grupo Meta",
+			"Antonio Meneghetti Faculdade"
+		],
+		"participant_institutions": {
+			"title" : "Escolas de Ensino Médio da Quarta Colônia",
+			"list": [
+				"Willy Roos"
+			]
+		}
+	},
+	{
+		"_id": 5,
+		"title": "6ª edição",
+		"image": "claudio_carrara.jpg",
+		"year": 2014,
+		"students": 20,
+		"long_description": "Introdução à robótica",
+		"short_description": "Introdução à robótica",
+		"partners": [
+			"Grupo Meta",
+			"Antonio Meneghetti Faculdade"
+		],
+		"participant_institutions": {
+			"title" : "Escolas de Ensino Médio da Quarta Colônia",
+			"list": [
+				"Willy Roos"
+			]
+		}
+	},
+	{
+		"_id": 6,
+		"title": "7ª edição",
+		"image": "claudio_carrara.jpg",
+		"year": 2015,
+		"students": 73,
+		"long_description": "Scratch e Wordpress na fase Básica, JAVA nas fases intermediárias e avançadas",
+		"short_description": "Scratch e Wordpress na fase Básica, JAVA nas fases intermediárias e avançadas",
+		"partners": [
+			"Grupo Meta",
+			"Antonio Meneghetti Faculdade",
+			"Fundação Antonio Meneghetti"
+		],
+		"participant_institutions": {
+			"title" : "Escolas de Ensino Médio da Quarta Colônia",
+			"list": [
+				"Willy Roos",
+				"Maria Ilha Baish", 
+				"Dom Antonio Reis",
+				"João XIII"
+			]
+		}
+	},
+	{
+		"_id": 7,
+		"title": "8ª edição",
+		"image": "claudio_carrara.jpg",
+		"year": 2016,
+		"students": 75,
+		"long_description": "Scratch e Wordpress na fase Básica e PHP, JAVA e ABAP na fase intermediária/avançada",
+		"short_description": "Scratch e Wordpress na fase Básica e PHP, JAVA e ABAP na fase intermediária/avançada",
+		"partners": [
+			"Grupo Meta",
+			"Antonio Meneghetti Faculdade",
+			"Fundação Antonio Meneghetti"
+		],
+		"participant_institutions": {
+			"title" : "Escolas de Ensino Médio da Quarta Colônia",
+			"list": [
+				"Willy Roos",
+				"Maria Ilha Baish", 
+				"Dom Antonio Reis",
+				"João XIII",
+				"Francisco Manoel", 
+				"Erico Veríssimo"
+			]
+		}
+	},
+	{
+		"_id": 8,
+		"title": "9ª edição",
+		"image": "claudio_carrara.jpg",
+		"year": 2017,
+		"students": 70,
+		"long_description": "Scratch e Wordpress na fase Básica e C# intermediária/avançada",
+		"short_description": "Scratch e Wordpress na fase Básica e C# intermediária/avançada",
+		"partners": [
+			"Grupo Meta",
+			"Antonio Meneghetti Faculdade",
+			"Fundação Antonio Meneghetti"
+		],
+		"participant_institutions": {
+			"title" : "Escolas de Ensino Médio da Quarta Colônia",
+			"list": [
+				"Willy Roos",
+				"Maria Ilha Baish", 
+				"Dom Antonio Reis",
+				"João XIII",
+				"Francisco Manoel", 
+				"Erico Veríssimo",
+				"Francisco Giuliani"
+			]
+		}
+	}
+]
