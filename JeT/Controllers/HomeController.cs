@@ -11,11 +11,6 @@ namespace JeT.Controllers
         public ActionResult Index()
         {
             return View();
-        }
-
-        public ActionResult Galeria()
-        {
-            return View();
-        }
+        }        
     }
 }

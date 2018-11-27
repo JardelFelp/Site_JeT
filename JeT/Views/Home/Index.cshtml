@@ -1,22 +1,20 @@
 ﻿@{
-    ViewBag.Title = "Code Race " + DateTime.Now.Year;
+    ViewBag.Title = "Jovem Tecnologia " + DateTime.Now.Year;
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@Html.Partial("_Header_Home1")
+@Html.Partial("_Header")
 
 <header>
     <div class="container">
         <div class="intro-text">
-            <div class="intro-heading">CODE RACE</div>
-            <div class="intro-lead-in">Maior campeonato de programação do interior do RS</div>
+            <div class="intro-heading"><img src="@Href("~/content/img/logo.png")" alt="Jovem e Tecnologia" style="width:40vw" /></div>
+            <div style="margin-top: -8vh" class="intro-lead-in">O melhor projeto de tecnologia do RS</div>
             <a href="#" class="page-scroll btn btn-xl">INSCRIÇÕES EM BREVE</a>
-            @*<a href="#inscricoes" class="page-scroll btn btn-xl">INSCRIÇÕES</a>*@
         </div>
     </div>
 </header>
-
-<section id="coderace2017">
+<section id="jovemTecnologia">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -25,48 +23,36 @@
             <div class="visible-lg visible-md visible-sm hidden-xs">
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8">
-                    <iframe src="https://www.dropbox.com/s/lm0q4q3fsu7ccol/Jovem%20e%20Tecnologia%20FINAL%20drop.mp4?dl=0" width="100%" height="415" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-                </div>
-                <div class="col-lg-2"></div>
-            </div>
-            <div class="hidden-lg hidden-md hidden-sm visible-xs">
-                <div class="col-lg-2"></div>
-                <div class="col-lg-8">
-                    <iframe src="https://www.dropbox.com/s/lm0q4q3fsu7ccol/Jovem%20e%20Tecnologia%20FINAL%20drop.mp4?dl=0" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
                 </div>
                 <div class="col-lg-2"></div>
             </div>
             <div class="col-lg-6 text-justify">
-                <br /><br /><br />
-                <p>O Code Race busca principalmente a interação entre desenvolvedores na área da tecnologia e, através dessa interação, dar a real visibilidade que merecem no setor. Suportando desde estudantes até a experientes no mercado. Assim, todo e qualquer aprendiz da área da tecnologia pode competir. </p>
-                <p>Na abertura do evento será sorteado um tema conforme sugestões dos competidores, com isso, os participantes são desafiados em criar um software que, no mínimo, supra os requisitos solicitados no sorteio. Os softwares devem ser inovadores e que supram as necessidades de um problema X que a sociedade possui.</p>
-                <p>As equipes (de no máximo 5 pessoas) terão que apresentar seu software, mostrando por quê alguém usaria e pagaria por aquele serviço, como se os jurados fossem seus clientes. Será avaliado o código, interface, apresentação e mais (inovação, etc) por diversos jurados do mercado.</p>
-                <p>O evento tem a duração de 12 horas de desenvolvimento — mão na massa — e mais algumas "horinhas" de imersão no evento e apresentação dos softwares. Assim, os melhores colocados receberão o investimento em dinheiro.</p>
+                <h2 class="section-subheading text-muted text-center">O que é ?</h2>
+                <p>O Jovem & Tecnologia ...  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor massa leo, sed suscipit erat feugiat ac. Proin nec auctor ipsum, ut bibendum turpis. Quisque vulputate velit euismod lacus lobortis tempor. Phasellus lobortis, quam id tempor aliquam, lacus ante volutpat lacus, eget laoreet velit turpis sed massa. Nunc dignissim ullamcorper elit vitae viverra. Vestibulum hendrerit justo at turpis euismod, id molestie est placerat. Nam id felis metus. Mauris eu ipsum laoreet, facilisis leo nec, porttitor urna. Cras laoreet tempor urna, eu suscipit justo mollis eu. Suspendisse pharetra dolor eget tempus tristique. In vel magna pharetra, auctor turpis eu, consectetur arcu.</p>
             </div>
-            <div class="col-lg-6">
-                <h2 class="section-subheading text-muted text-center">Data &amp; Local</h2>
-                <p><b>Data e Hora: </b>17/08 a 18/08 com ínicio as 20h. </p>
-                <p><b>Local: </b>Antonio Meneghetti Faculdade</p>
+            <div class="col-lg-6 text-justify">
+                <h2 class="section-subheading text-muted text-center">Onde ?</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13862.913195956873!2d-53.51812!3d-29.698656!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7c7f47a67748fc31!2sAntonio+Meneghetti+Faculdade+-+AMF!5e0!3m2!1spt-PT!2sbr!4v1501677252065" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
 </section>
 
-<section class="bg-light-gray">
+<section>    
     <div class="container">
-        <div class="row text-center" >
+        <div class="mvv-bg"></div>
+        <div class="row text-center">
             <div class="col-md-4">
-                <img src="@Href("~/content/img/service/Missao.png")" alt="Missão" style="border-radius: 50px; width:70%" />
+                <img src="@Href("~/content/img/service/rocket.png")" alt="Missão" style="border-radius: 50px; width:70%; max-width:225px" />
                 <h4 class="service-heading">Missão</h4>
                 <p class="text-muted">
-                        Ser um projeto onde os alunos possam expandir o seu conhecimento na área
+                    Ser um projeto onde os alunos possam expandir o seu conhecimento na área
                     de tecnologia de informação e empreendedorismo, despertando no mesmo o interesse
                     em estudar e trabalhar na área de tecnologia da informação.
                 </p>
             </div>
             <div class="col-md-4">
-                <img src="@Href("~/content/img/service/visao.png")" alt="Visão" style="border-radius: 50px;width:70%" />
+                <img src="@Href("~/content/img/service/eye.png")" alt="Visão" style="border-radius: 50px;width:70%; max-width:225px" />
                 <h4 class="service-heading">Visão</h4>
                 <p class="text-muted">
                     Formar o Jovem para uma atuação protagonista no mercado nacional e
@@ -74,290 +60,26 @@
                 </p>
             </div>
             <div class="col-md-4">
-                <img src="@Href("~/content/img/service/valoress.png")" alt="Valores" style="border-radius: 50px;width:70%" />
+                <img src="@Href("~/content/img/service/tree.png")" alt="Valores" style="border-radius: 50px;width:70%; max-width:225px" />
                 <h4 class="service-heading">Valores</h4>
-                <p class="text-muted" style="text-align: left">
-                     Comprometimento e responsabilidade;<br />
-                     Crescimento pessoal visando à autonomia; <br />
-                     Aprendemos e crescemos juntos; <br/>
-                     Buscamos aprender e nos desenvolver a cada oportunidade;<br/>
-                     Compromisso de desenvolvimento junto á comunidade. 
-                </p>
+                <ul class="text-left text-muted">
+                    <li>Comprometimento e responsabilidade</li>
+                    <li>Crescimento pessoal visando à autonomia</li>
+                    <li>Aprendemos e crescemos juntos</li>
+                    <li>Buscamos aprender e nos desenvolver a cada oportunidade</li>
+                    <li>Compromisso de desenvolvimento junto á comunidade</li>
+                </ul>
             </div>
         </div>
     </div>
 </section>
-
-@*<section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Patrocinadores</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="col-md-3 col-sm-6 portfolio-item">
-                        <a href="https://braziljs.org/" target="_blank" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="~/content/img/parceiros/braziljs.png" class="img-responsive" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>BrazilJS</h4>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 portfolio-item">
-                        <a href="http://www.meta.com.br" target="_blank" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="~/content/img/parceiros/meta.jpg" class="img-responsive" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Meta</h4>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 portfolio-item">
-                        <a href="http://zelts.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="~/content/img/parceiros/zelts.jpg" class="img-responsive" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Zelts</h4>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 portfolio-item">
-                        <a href="https://www.monsterenergy.com/" target="_blank" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="~/content/img/parceiros/monster-energy.jpg" class="img-responsive" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Monster Energy</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="col-md-2 col-sm-6 portfolio-item">
-                        <a href="http://site.fp2.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="~/content/img/parceiros/fp2.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-sm-6 portfolio-item">
-                        <a href="https://i3tecnologia.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="~/content/img/parceiros/i3_tecnologia.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-sm-6 portfolio-item">
-                        <a href="https://www.facebook.com/sttalo/" target="_blank" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="~/content/img/parceiros/sttalo.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-sm-6 portfolio-item">
-                        <a href="#" target="_blank" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="~/content/img/parceiros/open_it.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-sm-6 portfolio-item">
-                        <a href="https://rocket.chat/" target="_blank" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="~/content/img/parceiros/rocket-chat.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-sm-6 portfolio-item">
-                        <a href="https://www.umbler.com/" target="_blank" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="~/content/img/parceiros/umbler.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="col-md-2 col-sm-6 portfolio-item">
-                        <a href="http://casadipaolo.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="~/content/img/parceiros/di-paolo.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-sm-6 portfolio-item">
-                        <a href="http://www.taquapy.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="~/content/img/parceiros/taquapy.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-sm-6 portfolio-item">
-                        <a href="http://www.syntesis.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="~/content/img/parceiros/syntesis.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-sm-6 portfolio-item">
-                        <a href="http://www.avato.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="~/content/img/parceiros/avato.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-sm-6 portfolio-item">
-                        <a href="http://rizzattiturismo.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="~/content/img/parceiros/rizzatti-turismo.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!--<div class="row text-center">
-                <a href="@Href("~/patrocine")" class="page-scroll btn btn-xl">Seja um Patrocinador</a>
-            </div>-->
-            <br />
-
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Parceiros</h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="http://www.faculdadeam.edu.br/" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="~/content/img/parceiros/amf.jpg" class="img-responsive" alt="">
-                    </a>
-                    <!--<div class="portfolio-caption">
-              <h4>Antonio Meneghetti Faculdade</h4>
-        </div>-->
-                </div>
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="http://www.fundacaoantoniomeneghetti.org.br/" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="~/content/img/parceiros/fundacao_am.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="https://www.impare.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="~/content/img/parceiros/impare.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="https://www.treinaweb.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="~/content/img/parceiros/treina-web.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="http://pt.chipinside.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="~/content/img/parceiros/chip-inside.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="http://www.hotelcapozorial.com.br/" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="~/content/img/parceiros/capo-zorial.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-            <br />
-        </div>
-    </section>*@
 
 <section id="sobre">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Sobre</h2>
-                @*<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>*@
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
             </div>
         </div>
         <div class="row">
@@ -485,7 +207,7 @@
                                     <b>Tecnologias:</b> Scratch e Wordpress na fase Básica e PHP, JAVA e ABAP na fase intermediária/avançada.<br />
                                     <b>Apoiadores:</b> Grupo Meta, Antonio Meneghetti Faculdade e Fundação Antonio Meneghetti.<br />
                                     <b>Período:</b> 16 de Maio a 10 de Dezembro.<br />
-                                    <b>Desafio Final:</b> 1ª CODE RACE J&T.</b>
+                                    <b>Desafio Final:</b> 1ª Jovem Tecnologia J&T.</b>
                                 </p>
                             </div>
                         </div>
@@ -504,16 +226,8 @@
                                     <b>Tecnologias:</b> Scratch e Wordpress na fase Básica e C# intermediária/avançada.<br />
                                     <b>Apoiadores:</b> Meta, Antonio Meneghetti Faculdade e Fundação Antonio Meneghetti.<br />
                                     <b>Período:</b> 13 de Maio a 16 de Dezembro.<br />
-                                    <b>Desafio Final:</b> 2ª CODE RACE J&T.</b>
+                                    <b>Desafio Final:</b> 2ª Jovem Tecnologia J&T.</b>
                                 </p>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="timeline-entry begin">
-                        <div class="timeline-entry-inner">
-                            <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
-                                <i class="entypo-flight"></i> <i class="fa fa-spinner fa-spin" aria-hidden="true"></i>
                             </div>
                         </div>
                     </article>
@@ -523,79 +237,14 @@
     </div>
 </section>
 
-<section <div id="galeria">
- <div class="row text-center text-lg-left">
-
-      <div class"gal1">
-
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
+<section id="gallery">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Galeria</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-
-      </div>
-
-      <div class"gal2">
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-      
-      <divclass"gal3">
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-      </div>
-     </div> 
+        @Html.Action("Index", "Gallery")
+    </div>
 
 </section>
 
@@ -609,20 +258,20 @@
         <div class="row">
             <div class="col-md-offset-1 col-md-2 col-xs-6 col-xs-offset-3">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/claudio_carrara.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/claudio_carrara.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Claudio Carrara</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
                         <li>
                             <a href="https://www.facebook.com/claudio.carrara.79" target="_blank"><i class="fa fa-facebook"></i></a>
                         </li>
-                       
+
                     </ul>
                 </div>
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/ricardo_schaefer.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/ricardo_schaefer.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Ricardo Schaefer</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -637,7 +286,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/jose_luiz.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/jose_luiz.jpg")" class="img-responsive img-circle" alt="">
                     <h4>José Luiz Rodrigues Filho</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -652,7 +301,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/juliana_rigon.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/juliana_rigon.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Juliana Rigon</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -667,7 +316,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/gustavo_florencio.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/gustavo_florencio.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Gustavo Florêncio</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -683,28 +332,28 @@
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Monitores TI</h2>
+                <h2 class="section-heading">Professores de TI</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-2 col-xs-4">
+            <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/juliana_rigon.jpg")" class="img-responsive img-circle" alt="">
-                    <h4>Juliana Rigon</h4>
+                    <img src="@Href("~/content/img/organization/monitors_ti/ricardo_schieck.jpg")" class="img-responsive img-circle" alt="">
+                    <h4>Ricardo Schieck</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
                         <li>
-                            <a href="https://www.facebook.com/JulianaRigonJeT" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/ricardo.schieck" target="_blank"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/juliana-martins-rigon-6b109bab/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/ricardo-schieck-9b9017143/" target="_blank"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 col-xs-4">
+            <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_ti/bernardo_zamberlan.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_ti/bernardo_zamberlan.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Bernardo Zamberlan</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -717,9 +366,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 col-xs-4">
+            <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_ti/rhuan_drescher.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_ti/rhuan_drescher.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Rhuan Drescher</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -732,9 +381,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 col-xs-4">
+            <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_ti/hercules_karkow.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_ti/hercules_karkow.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Hercules Karkow</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -747,9 +396,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 col-xs-4">
+            <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_ti/estevao_lara.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_ti/estevao_lara.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Estevão Lara</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -762,9 +411,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 col-xs-4">
+            <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_ti/marcelo_burkard.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_ti/marcelo_burkard.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Marcelo Burkard</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -777,31 +426,33 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 col-xs-4 col-xs-offset-2 col-md-offset-1">
-                <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_ti/thiago_ledel.jpg")" class="img-responsive img-circle" alt="">
-                    <h4>Thiago Ledel</h4>
-                    <p></p>
-                    <ul class="list-inline social-buttons">
-                        <li>
-                            <a href="https://www.facebook.com/thiagocorrealedel" target="_blank"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/thiago-corr%C3%AAa-ledel-28a172142/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="row">
+                <div class="col-md-2 col-xs-6 col-xs-offset-3 col-md-offset-1">
+                    <div class="team-member">
+                        <img src="@Href("~/content/img/organization/monitors_ti/thiago_ledel.jpg")" class="img-responsive img-circle" alt="">
+                        <h4>Thiago Ledel</h4>
+                        <p></p>
+                        <ul class="list-inline social-buttons">
+                            <li>
+                                <a href="https://www.facebook.com/thiagocorrealedel" target="_blank"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/thiago-corr%C3%AAa-ledel-28a172142/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>                
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Monitores Atitude Empreendedora</h2>
+                <h2 class="section-heading">Monitores de Atitude Empreendedora</h2>
             </div>
-        </div>  
+        </div>
         <div class="row">
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/alana_azevedo.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/alana_azevedo.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Alana Azevedo</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -816,7 +467,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/alini_righi.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/alini_righi.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Alini Righi</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -828,7 +479,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/amanda_barcellos.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/amanda_barcellos.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Amanda Barcellos</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -840,7 +491,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/eduardo_zanon.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/eduardo_zanon.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Eduardo Zanon</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -855,7 +506,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/gabriel_sebastiano.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/gabriel_sebastiano.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Gabriel Sebastiano</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -870,7 +521,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/gabrieli_silva.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/gabrieli_silva.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Gabrieli Silva</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -884,7 +535,7 @@
         <div class="row">
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/giovani_saydelles.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/giovani_saydelles.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Giovani Saydelles</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -899,7 +550,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/hygor_bitencourt.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/hygor_bitencourt.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Hygor Bitencourt</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -911,7 +562,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/jean_wilhelm.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/jean_wilhelm.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Jean Wilhelm</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -926,7 +577,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/jose_goncalves.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/jose_goncalves.jpg")" class="img-responsive img-circle" alt="">
                     <h4>José Gonçalves</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -938,7 +589,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/karine_monego.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/karine_monego.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Karine Mônego</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -953,18 +604,17 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/katiele_rehbein.png")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/katiele_rehbein.png")" class="img-responsive img-circle" alt="">
                     <h4>Katiele Reihben</h4>
                     <p></p>
-                    <ul class="list-inline social-buttons">
-                    </ul>
+                    <ul class="list-inline social-buttons"></ul>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/kethellyn_crespin.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/kethellyn_crespin.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Kethellyn Crespin</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -976,7 +626,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/lais_cervo.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/lais_cervo.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Laís Cervo</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -988,7 +638,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/lucas_rodrigues.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/lucas_rodrigues.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Lucas Rodrigues</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -1000,7 +650,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/rafaela_machado.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/rafaela_machado.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Rafaela Maicá</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -1012,7 +662,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/suelen_costa.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/suelen_costa.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Suelen Costa</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -1027,7 +677,7 @@
             </div>
             <div class="col-md-2 col-xs-6">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/thalison_dorpmuller.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/thalison_dorpmuller.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Thalison Dorpmuller</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -1037,9 +687,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 col-xs-6">
+            <div class="col-md-2 col-xs-6 col-xs-offset-3 col-md-offset-5">
                 <div class="team-member">
-                    <img src="@Href("~/content/img/organizacao/monitores_foil/vanessa_winchester.jpg")" class="img-responsive img-circle" alt="">
+                    <img src="@Href("~/content/img/organization/monitors_foil/vanessa_winchester.jpg")" class="img-responsive img-circle" alt="">
                     <h4>Vanessa Winchester</h4>
                     <p></p>
                     <ul class="list-inline social-buttons">
@@ -1052,141 +702,12 @@
         </div>
     </div>
 </section>
-
-@*<section id="inscricoes">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Inscrições</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <div class="col-md-6">
-
-                        <div class="col-md-12 text-center">
-                            <h2>INSCRIÇÃO</h2>
-
-                            @if (ViewBag.Data == 1)
-                            {
-                                <div style="background:#d4d0d0;border-radius: 20px; padding-top: 15px;padding-bottom: 15px;">
-                                    <H4>Lote Promocional</H4>
-                                    <H4>R$ 100,00</H4>
-                                    <H4>14/08 a 24/09</H4>
-                                    <H5>(R$ 20,00 POR PARTICIPANTE, EQUIPE 5 PESSOAS)</H5>
-                                    <a href="~/inscricao"><button type="button" class="btn btn-xl">INSCREVER-SE</button></a>
-                                </div>
-                                <br />
-                            }
-                            else
-                            {
-                                <div style="background:#d4d0d0;color:#9e9e9e;border-radius: 20px; padding-top: 15px;padding-bottom: 15px;">
-                                    <H4>Lote Promocional</H4>
-                                    <H4>R$ 100,00</H4>
-                                    <H4>14/08 a 24/09</H4>
-                                    <H5>(R$ 20,00 POR PARTICIPANTE, EQUIPE 5 PESSOAS)</H5>
-                                    <a href="~/inscricao"><button disabled type="button" class="btn btn-xl">INSCREVER-SE</button></a>
-                                </div>
-                                <br />
-                            }
-
-                            @if (ViewBag.Data == 2)
-                            {
-                                <div style="background:#d4d0d0;border-radius: 20px; padding-top: 15px;padding-bottom: 15px;">
-                                    <H4>Segundo Lote</H4>
-                                    <H4>R$ 120,00</H4>
-                                    <H4>25/09 a 22/10</H4>
-                                    <H5>(R$ 24,00 POR PARTICIPANTE, EQUIPE 5 PESSOAS)</H5>
-                                    <a href="~/inscricao"><button type="button" class="btn btn-xl">INSCREVER-SE</button></a>
-                                </div>
-                                <br />
-                            }
-                            else
-                            {
-                                <div style="background:#d4d0d0;color:#9e9e9e;border-radius: 20px; padding-top: 15px;padding-bottom: 15px;">
-                                    <H4>Segundo Lote</H4>
-                                    <H4>R$ 120,00</H4>
-                                    <H4>25/09 a 22/10</H4>
-                                    <H5>(R$ 24,00 POR PARTICIPANTE, EQUIPE 5 PESSOAS)</H5>
-                                    <a href="~/inscricao"><button disabled type="button" class="btn btn-xl">INSCREVER-SE</button></a>
-                                </div>
-                                <br />
-                            }
-                            @if (ViewBag.Data == 3)
-                            {
-                                <div style="background:#d4d0d0;border-radius: 20px; padding-top: 15px;padding-bottom: 15px;">
-                                    <H4>Terceiro Lote</H4>
-                                    <H4>R$ 150,00</H4>
-                                    <H4>23/10 a 10/11</H4>
-                                    <H5>(R$ 30,00 POR PARTICIPANTE, EQUIPE 5 PESSOAS)</H5>
-                                    <a href="~/inscricao"><button type="button" class="btn btn-xl">INSCREVER-SE</button></a>
-                                </div>
-                            }
-                            else
-                            {
-                                <div style="background:#d4d0d0;color:#9e9e9e;border-radius: 20px; padding-top: 15px;padding-bottom: 15px;">
-                                    <H4>Terceiro Lote</H4>
-                                    <H4>R$ 150,00</H4>
-                                    <H4>23/10 a 10/11</H4>
-                                    <H5>(R$ 30,00 POR PARTICIPANTE, EQUIPE 5 PESSOAS)</H5>
-                                    <a href="~/inscricao"><button disabled type="button" class="btn btn-xl">INSCREVER-SE</button></a>
-                                </div>
-                            }
-
-                        </div>
-
-                    </div>
-                    <div class="col-md-6">
-                        <div class="col-md-12 text-center">
-                            <h2>REGULAMENTO</h2>
-                            <a href="@Href("~/Content/arquivos/REGULAMENTO - Code Race 2017.pdf")" target="_blank"><button type="button" class="btn btn-xl">Ver Regulamento</button></a>
-                            <!--<button type="button" disabled class="btn btn-xl">Em Breve</button>-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>*@
-
-@*<section id="premiacao" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Premiação</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="col-md-4 text-center">
-                        <img src="@Href("~/Content/img/premiacao/1.png")" />
-                        <h1>1º Lugar</h1>
-                        <h3>R$ 2.000,00</h3>
-                        <h5>(dois mil reais) e troféu</h5>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <img src="@Href("~/Content/img/premiacao/2.png")" />
-                        <h1>2º Lugar</h1>
-                        <h3>R$ 1.000,00)</h3>
-                        <h5> (um mil reais) e troféu</h5>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <img src="@Href("~/Content/img/premiacao/3.png")" />
-                        <h1>3º Lugar</h1>
-                        <h3>R$ 500,00</h3>
-                        <h5>(quinhentos reais) e troféu</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>*@
-
 <section id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Contato</h2>
-                @*<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>*@
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
             </div>
         </div>
         <div class="row">
@@ -1247,6 +768,8 @@
     </div>
 </section>
 
+@Html.Partial("_Footer")
+
 <script>
     function EnviarForm() {
 
@@ -1294,6 +817,8 @@
                     $("#divSucesso").removeClass("hidden");
                 }
             });
+
+
         }
     }
 </script>
